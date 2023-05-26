@@ -13,3 +13,9 @@ color: rgb(104, 65, 15);
 
 
 }
+P{
+    text-align: center;
+    font-size: x-large;
+    color:blue;
+    border-bottom: 1px;
+}
