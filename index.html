@@ -17,5 +17,28 @@
     <h1>Hello this is MY website, do you like cheese?</h1>
     <p>If you do not like cheese... Please GET OF MY WEBSITE!!!!</p>
     <!-- <img src="img/bb.png" alt="image" class="logo"> -->
+
+    <h1>Simple Calculator</h1>
+  
+    <label for="num1">Number 1:</label>
+    <input type="number" id="num1">
+    
+    <label for="num2">Number 2:</label>
+    <input type="number" id="num2">
+    
+    <button onclick="addNumbers()">Add</button>
+    
+    <p id="result"></p>
+    
+    <script>
+      function addNumbers() {
+        var num1 = parseFloat(document.getElementById("num1").value);
+        var num2 = parseFloat(document.getElementById("num2").value);
+        
+        var sum = num1 + num2;
+        
+        document.getElementById("result").innerText = "Result: " + sum;
+      }
+    </script>
 </body>
 </html>
